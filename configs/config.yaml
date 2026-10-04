@@ -1,0 +1,13 @@
+fondations:
+    model:
+        model_name: qwen/qwen3-vl-4b
+        base_url: http://localhost:1234/v1
+        api_key: lm-studio
+        max_tokens: 1600
+        prompt: "You are a data aggregator agent. You must find the elements in the image and extract them in a structured way. Data is grouped together you must group objects together. Only include data that is visible in the image."
+    pdf:
+        patch_width: 600
+        patch_height: 600
+        padding_width: 100
+        padding_height: 100
+        dpi: 125

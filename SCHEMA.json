@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ArmatureRecord",
+  "description": "L2C plan and shop drawing armature record (Annexe A compliant + debug coordinates).",
+  "type": "object",
+  "required": [
+    "id",
+    "source",
+    "fichier",
+    "feuillet",
+    "page",
+    "x",
+    "y",
+    "type_element",
+    "element",
+    "armature"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable unique ID, e.g. S-500_C-12_plan or CLP_S-100_p4_0001"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["plan", "da", "dessin_atelier"],
+      "description": "Origin document type: engineering plan or shop drawing"
+    },
+    "fichier": {
+      "type": "string",
+      "description": "Source PDF file basename"
+    },
+    "feuillet": {
+      "type": "string",
+      "pattern": "^S-[0-9]{3}(\\.[a-z0-9]+)?$",
+      "description": "Engineering sheet series, e.g. S-050, S-100, S-300, S-400, S-500, S-600"
+    },
+    "page": {
+      "type": "integer",
+      "description": "1-indexed page number in source PDF"
+    },
+    "x": {
+      "type": "number",
+      "description": "X coordinate in PDF points (1/72 in) from top-left"
+    },
+    "y": {
+      "type": "number",
+      "description": "Y coordinate in PDF points (1/72 in) from top-left"
+    },
+    "type_element": {
+      "type": "string",
+      "enum": [
+        "fondation",
+        "radier",
+        "semelle",
+        "colonne",
+        "poutre",
+        "mur",
+        "refend",
+        "mur_cisaillement",
+        "dalle"
+      ],
+      "description": "Structural element type"
+    },
+    "element": {
+      "type": "string",
+      "description": "Element designation, e.g. TYPE A, C-12, L-13, RADIER 1"
+    },
+    "armature": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["raw"],
+        "properties": {
+          "raw": {
+            "type": "string",
+            "description": "Verbatim text string as extracted"
+          },
+          "repere": {
+            "type": ["string", "null"],
+            "description": "Rebar mark or layer tag, e.g. C12-1, ARM. LONG., RANG 1"
+          },
+          "diametre": {
+            "type": ["string", "null"],
+            "pattern": "^[0-9]{2}M$",
+            "description": "Rebar diameter code, e.g. 10M, 15M, 20M, 25M, 30M, 35M"
+          },
+          "quantite": {
+            "type": ["integer", "null"],
+            "description": "Count of bars"
+          },
+          "espacement_mm": {
+            "type": ["number", "null"],
+            "description": "Center-to-center spacing in millimeters"
+          },
+          "longueur_mm": {
+            "type": ["number", "null"],
+            "description": "Total length in millimeters"
+          },
+          "bbox": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 4,
+            "maxItems": 4,
+            "description": "[x0, y0, x1, y1] bounding box in PDF points"
+          }
+        }
+      }
+    }
+  }
+}

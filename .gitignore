@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Sorties du notebook et fichiers Jupyter locaux
+out/notebook/
+.ipynb_checkpoints/
+
+.ocr_cache/
+# Sorties de vector_text (contiennent les dessins confidentiels)
+
+out/vector_text/
+
+# Fichiers locaux de planification
+local/

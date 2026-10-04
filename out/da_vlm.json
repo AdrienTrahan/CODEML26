@@ -1,0 +1,205 @@
+[
+  {
+    "id": "CLP_SEMELLES FND_da_S-100_p1_0001",
+    "source": "da",
+    "fichier": "CLP_SEMELLES FND.pdf",
+    "feuillet": "S-100",
+    "page": 1,
+    "x": 2892.4,
+    "y": 2239.6,
+    "type_element": "semelle",
+    "element": "A-11",
+    "armature": [
+      {
+        "raw": "17-25M",
+        "repere": null,
+        "diametre": "25M",
+        "quantite": 17,
+        "espacement_mm": null,
+        "longueur_mm": null
+      },
+      {
+        "raw": "8-20M",
+        "repere": null,
+        "diametre": "20M",
+        "quantite": 8,
+        "espacement_mm": null,
+        "longueur_mm": null
+      }
+    ]
+  },
+  {
+    "id": "CLP_SEMELLES FND_da_S-100_p1_0002",
+    "source": "da",
+    "fichier": "CLP_SEMELLES FND.pdf",
+    "feuillet": "S-100",
+    "page": 1,
+    "x": 2892.5,
+    "y": 2251.4,
+    "type_element": "semelle",
+    "element": "B-11",
+    "armature": [
+      {
+        "raw": "11-25M",
+        "repere": null,
+        "diametre": "25M",
+        "quantite": 11,
+        "espacement_mm": null,
+        "longueur_mm": null
+      },
+      {
+        "raw": "8-20M",
+        "repere": null,
+        "diametre": "20M",
+        "quantite": 8,
+        "espacement_mm": null,
+        "longueur_mm": null
+      }
+    ]
+  },
+  {
+    "id": "CLP_SEMELLES FND_da_S-100_p1_0003",
+    "source": "da",
+    "fichier": "CLP_SEMELLES FND.pdf",
+    "feuillet": "S-100",
+    "page": 1,
+    "x": 2890.6,
+    "y": 2263.2,
+    "type_element": "semelle",
+    "element": "C-11",
+    "armature": [
+      {
+        "raw": "9-25M",
+        "repere": null,
+        "diametre": "25M",
+        "quantite": 9,
+        "espacement_mm": null,
+        "longueur_mm": null
+      },
+      {
+        "raw": "8-20M",
+        "repere": null,
+        "diametre": "20M",
+        "quantite": 8,
+        "espacement_mm": null,
+        "longueur_mm": null
+      }
+    ]
+  },
+  {
+    "id": "CLP_SEMELLES FND_da_S-100_p1_0004",
+    "source": "da",
+    "fichier": "CLP_SEMELLES FND.pdf",
+    "feuillet": "S-100",
+    "page": 1,
+    "x": 2890.3,
+    "y": 2275.0,
+    "type_element": "semelle",
+    "element": "D-11",
+    "armature": [
+      {
+        "raw": "7-25M",
+        "repere": null,
+        "diametre": "25M",
+        "quantite": 7,
+        "espacement_mm": null,
+        "longueur_mm": null
+      },
+      {
+        "raw": "8-20M",
+        "repere": null,
+        "diametre": "20M",
+        "quantite": 8,
+        "espacement_mm": null,
+        "longueur_mm": null
+      }
+    ]
+  },
+  {
+    "id": "CLP_SEMELLES FND_da_S-100_p1_0005",
+    "source": "da",
+    "fichier": "CLP_SEMELLES FND.pdf",
+    "feuillet": "S-100",
+    "page": 1,
+    "x": 2962.8,
+    "y": 2286.8,
+    "type_element": "semelle",
+    "element": "E-11",
+    "armature": [
+      {
+        "raw": "6-20M",
+        "repere": null,
+        "diametre": "20M",
+        "quantite": 6,
+        "espacement_mm": null,
+        "longueur_mm": null
+      },
+      {
+        "raw": "8-20M",
+        "repere": null,
+        "diametre": "20M",
+        "quantite": 8,
+        "espacement_mm": null,
+        "longueur_mm": null
+      }
+    ]
+  },
+  {
+    "id": "CLP_SEMELLES FND_da_S-100_p1_0006",
+    "source": "da",
+    "fichier": "CLP_SEMELLES FND.pdf",
+    "feuillet": "S-100",
+    "page": 1,
+    "x": 2892.6,
+    "y": 2298.7,
+    "type_element": "semelle",
+    "element": "F-11",
+    "armature": [
+      {
+        "raw": "8-25M",
+        "repere": null,
+        "diametre": "25M",
+        "quantite": 8,
+        "espacement_mm": null,
+        "longueur_mm": null
+      },
+      {
+        "raw": "8-20M",
+        "repere": null,
+        "diametre": "20M",
+        "quantite": 8,
+        "espacement_mm": null,
+        "longueur_mm": null
+      }
+    ]
+  },
+  {
+    "id": "CLP_SEMELLES FND_da_S-100_p1_0007",
+    "source": "da",
+    "fichier": "CLP_SEMELLES FND.pdf",
+    "feuillet": "S-100",
+    "page": 1,
+    "x": 2890.3,
+    "y": 2310.5,
+    "type_element": "semelle",
+    "element": "G-11",
+    "armature": [
+      {
+        "raw": "12-25M",
+        "repere": null,
+        "diametre": "25M",
+        "quantite": 12,
+        "espacement_mm": null,
+        "longueur_mm": null
+      },
+      {
+        "raw": "8-20M",
+        "repere": null,
+        "diametre": "20M",
+        "quantite": 8,
+        "espacement_mm": null,
+        "longueur_mm": null
+      }
+    ]
+  }
+]
